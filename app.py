@@ -39,5 +39,5 @@ def catch_all(path):
     return render_template('usage.html', error=True)
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT',33507))
+    
     app.run()
