@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -r requirements.txt
+script: python test.py 
+deploy:
+  provider: heroku
+  api_key: 3dd19de1-5a64-4b45-93b7-976bc7e1ba31
+  app: mylab01
