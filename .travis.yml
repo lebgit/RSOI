@@ -6,5 +6,5 @@ install:
 script: python test.py 
 deploy:
   provider: heroku
-  api_key: 3dd19de1-5a64-4b45-93b7-976bc7e1ba31
+  api_key: 37b07746-d6f5-4f84-b439-7800c32a8f49
   app: mylab01
